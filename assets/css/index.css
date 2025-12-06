@@ -6,6 +6,14 @@
     --black: #000000;
     --white: #ffffff;
     --blueline: #3c5aa6;
+    --gelo: #849ebc;
+    --grama: #55936c;
+    --lutador: #5e646a;
+    --veneno: #836e9b;
+    --gelohover: #6a7e96;
+    --gramahover: #467958;
+    --lutadorhover: #4b5055;
+    --venenohover: #68577a;
 }
 
 body {
@@ -44,4 +52,71 @@ body {
     font-weight: bold;
     font-size: 20px;
     border-bottom: 4px solid var(--yellowhdr);
+}
+
+.types { 
+    border-bottom: 4px solid var(--yellowhdr);
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    margin: 0 100px 50px;
+}
+.types h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.types ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.types li { 
+    text-align: center;
+    padding: 10px;
+    width: 280px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.types li#gelo {
+    background-color: var(--gelo);
+}
+.types li#gelo:hover {
+    background-color: var(--gelohover);
+}
+.types li#grama {
+    background-color: var(--grama);
+}
+.types li#grama:hover {
+    background-color: var(--gramahover);
+}
+.types li#lutador {
+    background-color: var(--lutador);
+}
+.types li#lutador:hover {
+    background-color: var(--lutadorhover);
+}
+.types li#veneno {
+    background-color: var(--veneno);
+}
+.types li#veneno:hover {
+    background-color: var(--venenohover);
+}
+
+.types a { 
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
 }
