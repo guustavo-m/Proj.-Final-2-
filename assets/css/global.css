@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
+    --white: #fff;
+    --body: #fff7da;
     --searchclr: #A9CAF0;
     --yellowhdr: #ffd63c;
     --black: #000000;
     --white: #ffffff;
     --blueline: #3c5aa6;
+    --gelo: #849ebc;
+    --grama: #55936c;
+    --lutador: #5e646a;
+    --veneno: #836e9b;
+    --homehover: #ddb834;
+    --gelohover: #6a7e96;
+    --gramahover: #467958;
+    --lutadorhover: #4b5055;
+    --venenohover: #68577a;
+    --cardgrama: #a9f0e2;
+    --backgrama: #3ca663;
+    --backlutador: #2f374d;
+    --cardlutador: #777f87;
+    --backveneno: #3f377d;
+    --cardveneno: #966fc5;
 }
 
 * {
@@ -42,6 +59,65 @@ header{
     align-items: center;
     background-color: var(--yellowhdr);
     padding: 10px;
+}
+
+.buttontop { 
+    margin: 40px 100px 50px;
+}
+
+.buttontop ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.buttontop li { 
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttontop a { 
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.buttontop li#gelo {
+    background-color: var(--gelo);
+}
+.buttontop li#gelo:hover {
+    background-color: var(--gelohover);
+}
+.buttontop li#grama {
+    background-color: var(--grama);
+}
+.buttontop li#grama:hover {
+    background-color: var(--gramahover);
+}
+.buttontop li#home {
+    background-color: var(--yellowhdr);
+}
+.buttontop li#home:hover {
+    background-color: var(--homehover);
+}
+.buttontop li#lutador {
+    background-color: var(--lutador);
+}
+.buttontop li#lutador:hover {
+    background-color: var(--lutadorhover);
+}
+.buttontop li#veneno {
+    background-color: var(--veneno);
+}
+.buttontop li#veneno:hover {
+    background-color: var(--venenohover);
 }
 
 footer {
