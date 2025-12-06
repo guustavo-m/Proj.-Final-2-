@@ -1,0 +1,28 @@
+:root{
+    --white: #fff;
+}
+
+.firstimgs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.firstimgs img {
+    width: 507px;
+}
+
+.h1img {
+    position: absolute;
+    text-align: center;
+    color: var(--white);
+    background-color: rgba(178, 54, 47, 0.85);
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
