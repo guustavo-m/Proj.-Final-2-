@@ -130,6 +130,12 @@ p#text1 {
     font-size: 30px;
 }
 
+.buttons1, .buttons2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
 .team h2 {
     text-align: center;
     font-size: 40px;
@@ -151,4 +157,97 @@ p#text1 {
 }
 .card {
     text-align: center;
+}
+
+@media (max-width: 768px) {
+
+.firstimgs img {
+    width: 100%;
+}
+
+.h1img {
+    font-size: 30px;
+}
+
+#text {
+    margin: 0 80px 30px 80px;
+}
+
+.types { 
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: 0 80px 40px;
+}
+
+.types ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.types h2{
+    margin-bottom: 30px;
+}
+
+.types li { 
+    padding: 8px;
+    width: 150px;
+    height: 70px;
+}
+
+.buttons1, .buttons2 {
+    padding-bottom: 30px;
+}
+
+p#text1 {
+    margin: 0 80px 30px 80px;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+.firstimgs img {
+    width: 100%;
+}
+
+.h1img {
+    font-size: 35px;
+}
+
+#text {
+    margin: 0 80px 30px 80px;
+}
+
+.types { 
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: 0 80px 40px;
+}
+
+.types ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons1, .buttons2 {
+    padding-bottom: 30px;
+}
+
+p#text1 {
+    margin: 0 80px 30px 80px;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 30px;
+}
 }
