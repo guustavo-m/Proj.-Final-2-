@@ -202,3 +202,79 @@ footer a {
     padding-top: 15px;
     font-size: 10px;
 }
+@media (max-width: 768px) {
+
+.searchbar {
+    padding: 5px;
+}
+
+header input {
+    border: none;
+    width: 375px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.buttontop { 
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.buttontop li { 
+    width: 90px;
+    height: 20px;
+}
+
+.buttontop a { 
+    font-size: 18px;
+}
+
+footer {
+    padding: 60px;
+    width: auto;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+header h1{
+        font-size: 25px;
+}
+
+header img {
+        width: 300px;
+}
+
+.searchbar {
+        gap: 100px;
+        width: 50%;
+        border-radius: 10px;
+        display: flex;
+}
+
+.buttontop { 
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.buttontop li { 
+    width: 150px;
+    height: 30px;
+}
+
+.buttontop a { 
+    font-size: 18px;
+}
+}
